@@ -79,74 +79,126 @@
 }
 .flex-box{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     position: relative;
+    margin-top: 50px;
 }
 
 .box_a{
     display: flex;
     flex: 0.25;
-    height: 180px;
-    margin:10px;
+
     border: black 2px solid;
     background-color: rgb(243, 136, 202);
     font-size: 15px;
     position: relative;
- 
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.box_a .col_a{
+    padding: 0 0 0 10px;
 }
 
-.col_a{
-    width: auto;
-    padding: 20px 0 0 0;
-    margin: 30px 0 0 10px;
-}
-.col_b{
-    padding: 40px 0 0 60px;
-}
+
 
 .box_b{
     display: flex;
     flex: 0.25;
     height: 180px;
-    margin:10px;
     border: black 2px solid;
-    background-color: #e79e4f;
+    background-color: rgb(248, 130, 62);
     font-size: 15px;
     position: relative;
+    align-items: center;
+    justify-content: space-between;
+    
 
 }
 
-.col_c{
-    width: auto;
-    padding: 20px 0 0 0;
-    margin: 30px 0 0 10px;
+.box_b .col_c{
+    padding: 0 0 0 10px;
 }
-.col_d{
-    padding: 55px 0 0 0;
-    right: 0;
-}
+
+
 
 .box_c{
     display: flex;
     flex: 0.25;
     height: 180px;
-    margin:10px;
     border: black 2px solid;
-    background-color: cornsilk;
+    background-color: rgb(247, 89, 186);
     font-size: 15px;
     position: relative;
+    align-items: center;
+    justify-content: space-between;
+    
 
 }
 
-.col_e{
-    padding: 20px 0 0 0;
-    margin: 30px 0 0 10px;
+.box_c .col_e{
+    padding: 0 0 0 10px;
 }
 
-.col_f{
-    padding: 40px 0 0 150px;
-}
 
+
+
+
+.flex-container2{
+    display: flex;
+    padding-top: 30px;
+    margin:30px;
+}
+.colA{
+    width: 20%;
+}
+.box_left{
+    
+    margin-left: 60px;
+    width: 30%;
+}
+.box_left .colA img{
+    width: 30%;
+}
+.box_right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+
+}
+.column1{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.column1 .shirt{
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+}
+.column1 .shirt img{
+    width: 150px;
+    height: 150px;
+}
+.column2{
+    display: flex;
+    margin: 15px;
+    justify-content: space-between;
+
+}
+.column2 .shirt{
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+}
+.column2 .shirt img{
+    width: 150px;
+    height: 150px;
+}
+.shirt
+{   margin: 2px;
+    border:  2px solid;
+}
 
 
