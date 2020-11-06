@@ -165,74 +165,6 @@
 .box_left .colA img{
     width: 30%;
 }
-.box_right{
-    display: flex;
-    flex-direction: column;
-    margin-right: 100px;
-    width: 70%;
-    left: 100px;
-
-}
-.column1{
-    margin: 15px;
-    display: flex;
-    justify-content: space-between;
-}
-.column1 .shirt{
-    width: 200px;
-    height: 300px;
-    border: 2px solid black;
-    margin: 30px;
-}
-.column1 .shirt img{
-    width: 150px;
-    height: 150px;
-}
-.column2{
-    display: flex;
-    margin: 15px;
-    justify-content: space-between;
-
-}
-.column2 .shirt{
-    width: 200px;
-    height: 300px;
-    border: 2px solid black;
-    margin: 30px;
-}
-.column2 .shirt img{
-    width: 150px;
-    height: 150px;
-}
-.column2 .shopify{
-    width: 200px;
-    height: 300px;
-    border: 2px solid black;
-    margin: 30px;
-}
-.column2 .shopify img{
-    width: 120px;
-    height: 120px;
-    margin-top: 20px;
-}
-.shirt p{
-    font-size: 10px;
-    font-weight: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular';
-    margin-left: 30px;
-    margin-right: 10px;
-}
-.shopify p{
-    font-size: 10px;
-    font-weight: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular';
-    margin-left: 30px;
-    margin-right: 10px;
-    margin-top: 10px;
-}
-.shirt .cart {
-    display: flex;
-}
 .button{
     margin-top: 30px;
 }
@@ -241,101 +173,133 @@
 }
 
 
-
-
-.shirt .price_before{
-    margin-top: 30px;
-}
-.shirt .bottom{
+.box_right{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     margin-top: 30px;
-}
-.shirt .bottom .bottom_left{
-    margin-left: 10px;
-    font-size: 18px;
-}
-.shirt .cart input{
-    width: 60px;
-    margin-top: 30px;
-    margin-left: 60px;
-    box-shadow: 2px 3px;
+    width: 80%;
+    left: 100px;
+    background-color: rgb(241, 236, 234);
+
 }
 
-.shopify .bottom{
+.product{
+    position: relative;
+    border: 3px solid;
+    background-color: white;
+    margin: 15px;
+    height: 350px;
     display: flex;
-    align-items: center;
-    margin-top: 30px;
-}
-.shopify .bottom-right input{
-    width: 60px;
-    margin-top: 30px;
-    margin-left: 70px;
-    box-shadow: 2px 3px;
-}
-.shopify .bottom .bottom-left p{
-    margin-top: 0;
-    margin-left: 20px;  
-    font-size: 15px;
 }
 
-.bottom-left{
-    margin-top: 30px;
-    max-width: 200px;
-}
-.bottom_left p{
-    margin-left: 10px;
-    font-size: 15px;
 
-}
-.price_before p{
-    color: red;
-    text-decoration: line-through;
-}
-.price_after{
-    color: rgb(46, 207, 127);
-}
+
+
 .discount{
+    
     position: absolute;
     border: 1px solid orangered;
     border-radius: 8px;
     width: 50px;
     margin-top: 10px;
-    margin-left: 140px;
+    margin-left: 250px;
     text-align: center;
     background-color: orangered;
     color: white;
-}
-.discount p{
-    font-size: 18px;
     
 }
-
-.loading{
-    margin-top: 40px;
-    margin-left: 45%;
-    margin-bottom: 40px;
-    width: 120px;
-    height: 30px;
-    border: 2px solid rgb(35, 226, 233);
-    background-color: rgb(35, 226, 233);
-    border-radius: 25px;
+.product_img{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    
+    align-items: center;
+    margin-top: 30px;
 }
-.loading p{
-    margin-top: 6px;
+.up img{
+    
+    width: 180px;
+    height: 180px;
+
+}
+.down img{
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.product_detail{
+    
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    margin-top: 25px;
+    margin-left: 40px;
+    font-size: 20px;
     font-style: 'Lucida Sans', 'Lucida Sans Regular';
+    display: flex;
+}
+.price{
+    display: flex;
+    margin-left: 250px;
+}
+.price .before{
+    font-style:'Lucida Sans', 'Lucida Sans Regular';
+    margin-left: 10px;
+    color: red;
+    text-decoration: line-through;
+}
+.price .after{
+    font-style:'Lucida Sans', 'Lucida Sans Regular';
+    margin-left: 20px;
+    color: green;
+}
+.second{
+    margin-left: 40px;
+    margin-top: 55px;
+}
+.second p{
+    font-style: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 15px;
+}
+.third{
+    margin-top: 95px;
+    margin-left: 40px;
+}
+.third input{
+    width: 60px;
+    border: 3px solid;
+    box-shadow: 3px 5px;
+    font-style: 'Lucida Sans', 'Lucida Sans Regular';
+}
+.product_tag{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.male{
+    border: 2px solid  rgb(221, 218, 218);
+    border-radius: 6px;
+    background-color: rgb(221, 218, 218);
+    width: 100px;
+    height: 25px;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.single{
+    border: 2px solid  rgb(221, 218, 218);
+    border-radius: 6px;
+    background-color: rgb(221, 218, 218);
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    margin-left: 20px;
+}
+.comment{
+    margin: 15px;
+    font-style: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 20px;
+}
