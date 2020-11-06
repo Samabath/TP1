@@ -71,7 +71,7 @@
     width: 200px;
     height: -10px;
     padding-top: 20px;
-    
+    border-radius: 20px;
     transform: translate(50%,-50%);
 }
 .search input{
@@ -82,7 +82,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     position: relative;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .box_a{
@@ -145,18 +145,21 @@
 
 
 
-.flex-container2{
+.flex-container{
     display: flex;
     padding-top: 30px;
-    margin:30px;
+
+
 }
 .colA{
     width: 20%;
 }
 .box_left{
     
-    margin-left: 60px;
+    margin-top: 50px;
+    margin-left: 100px;
     width: 30%;
+
 }
 .box_left .colA img{
     width: 30%;
@@ -164,7 +167,9 @@
 .box_right{
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-right: 100px;
+    width: 70%;
+    left: 100px;
 
 }
 .column1{
@@ -176,6 +181,7 @@
     width: 200px;
     height: 300px;
     border: 2px solid black;
+    margin: 30px;
 }
 .column1 .shirt img{
     width: 150px;
@@ -191,14 +197,124 @@
     width: 200px;
     height: 300px;
     border: 2px solid black;
+    margin: 30px;
 }
 .column2 .shirt img{
     width: 150px;
     height: 150px;
 }
-.shirt
-{   margin: 2px;
-    border:  2px solid;
+.column2 .shopify{
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 30px;
+}
+.column2 .shopify img{
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+}
+.shirt p{
+    font-size: 10px;
+    font-weight: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.shopify p{
+    font-size: 10px;
+    font-weight: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.shirt .cart {
+    display: flex;
+}
+.button{
+    margin-top: 30px;
+}
+.button input{
+    box-shadow: 2px 2px 2px 2px;
+}
+
+
+
+
+.shirt .price_before{
+    margin-top: 30px;
+}
+.shirt .bottom{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.shirt .bottom .bottom_left{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.shirt .cart input{
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 60px;
+    box-shadow: 2px 3px;
+}
+
+.shopify .bottom{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.shopify .bottom-right input{
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 70px;
+    box-shadow: 2px 3px;
+}
+.shopify .bottom .bottom-left p{
+    margin-top: 0;
+    margin-left: 20px;  
+    font-size: 15px;
+}
+
+.bottom-left{
+    margin-top: 30px;
+    max-width: 200px;
+}
+.bottom_left p{
+    margin-left: 10px;
+    font-size: 15px;
+
+}
+.price_before p{
+    color: red;
+    text-decoration: line-through;
+}
+.price_after{
+    color: rgb(46, 207, 127);
+}
+.discount p{
+    border: 1px solid;
+    width: 40px;
+    height: 30px;
+    color: orange;
+    margin-left: 30px;
+    text-align: center;
+    padding: 8px;
+}
+.loading{
+    margin-top: 40px;
+    margin-left: 50%;
+    margin-bottom: 40px;
+    width: 120px;
+    border: 2px solid rgb(35, 226, 233);
+    background-color: rgb(35, 226, 233);
+    border-radius: 25px;
+}
+.loading p{
+    font-style: 'Lucida Sans', 'Lucida Sans Regular';
+    text-align: center;
 }
 
 
