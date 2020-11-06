@@ -148,6 +148,7 @@
 .flex-container{
     display: flex;
     padding-top: 30px;
+    position: relative;
 
 
 }
@@ -294,25 +295,34 @@
 .price_after{
     color: rgb(46, 207, 127);
 }
-.discount p{
-    border: 1px solid;
-    width: 40px;
-    height: 30px;
-    color: orange;
-    margin-left: 30px;
+.discount{
+    position: absolute;
+    border: 1px solid orangered;
+    border-radius: 8px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 140px;
     text-align: center;
-    padding: 8px;
+    background-color: orangered;
+    color: white;
 }
+.discount p{
+    font-size: 18px;
+    
+}
+
 .loading{
     margin-top: 40px;
-    margin-left: 50%;
+    margin-left: 45%;
     margin-bottom: 40px;
     width: 120px;
+    height: 30px;
     border: 2px solid rgb(35, 226, 233);
     background-color: rgb(35, 226, 233);
     border-radius: 25px;
 }
 .loading p{
+    margin-top: 6px;
     font-style: 'Lucida Sans', 'Lucida Sans Regular';
     text-align: center;
 }
