@@ -67,8 +67,8 @@
     position: absolute;
     align-items: center;
     top: 600px;
-    left: 360px;
-    width: 200px;
+    left: 160px;
+    width: 600px;
     height: -10px;
     padding-top: 20px;
     border-radius: 20px;
@@ -178,8 +178,10 @@
     flex-direction: column;
     margin-top: 30px;
     width: 80%;
+    height: 1100px;
     left: 100px;
-    background-color: rgb(241, 236, 234);
+    background-color:  rgb(236, 236, 236);
+    
 
 }
 
@@ -229,6 +231,7 @@
     height: 80px;
     margin-right: 20px;
     margin-top: 20px;
+    border: 3px solid rgb(238, 232, 232);
 }
 .product_detail{
     
@@ -272,8 +275,8 @@
 }
 .third input{
     width: 60px;
-    border: 3px solid;
-    box-shadow: 3px 5px;
+    border: 2px solid;
+    box-shadow: 2px 2px;
     font-style: 'Lucida Sans', 'Lucida Sans Regular';
 }
 .product_tag{
@@ -303,3 +306,101 @@
     font-style: 'Lucida Sans', 'Lucida Sans Regular';
     font-size: 20px;
 }
+
+.review_section{
+    
+    position: relative;
+    background-color: white;
+    margin: 15px;
+    height: 450px;
+    max-height: 320px;
+}
+.first_review{
+    height: 160px;
+    border: 3px solid gray;
+    margin: 0;
+}
+.second_review{
+    height: 150px;
+    border: 3px solid gray;
+    margin: 0;
+}
+.reviewer{
+    display: flex;
+    margin: 10px;
+}
+.reviewer i{
+    font-size: 28px;
+    margin-top: 4px;
+}
+.anonymous{
+    margin-left: 5px;
+}
+.anonymous h3{
+    font-style:  'Lucida Sans', 'Lucida Sans Regular';
+    color: rgb(73, 73, 247);
+}
+.anonymous p{
+    font-style:  'Lucida Sans', 'Lucida Sans Regular';
+    color: grey;
+    font-size: 10px;
+}
+.letter p{
+    margin : 15px 20px 15px 15px;
+    font-style:  'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 20px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .write{
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+  }
+  .write fieldset{
+      height: 150px;
+      
+  }
+  .send_delete{
+    margin-top: 20px;
+    margin-left: 80%;
+  }
+  #send{
+      background-color: green;
+      font-size: 15px;
+      border: 2px solid black;
+      box-shadow: 2px 2px;
+      width: 70px;
+
+  }
+  #delete{
+    background-color:white;
+    font-size: 15px;
+    border: 2px solid black;
+    box-shadow: 2px 2px;
+    margin-left: 20px;
+    width: 100px;
+
+}
+  
